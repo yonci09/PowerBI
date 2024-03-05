@@ -42,41 +42,42 @@ The data (sample) is currently accessible in the form of a few Excel files, each
 
 ## Steps that will help in the completion of the project:
 
-  1. Import the data from all available Excel files
-  2. Data transformation: 
-  3. Make sure the City column names are corrected 
-    For example: 
-     - “Sí£o Paulo” should be corrected to “São Paulo”
-     - Ensure the city name isn't ambiguous
+    1. Import the data from all available Excel files
+    2. Data transformation: 
+    3. Make sure the City column names are corrected 
+         
+         For example: 
+            - “Sí£o Paulo” should be corrected to “São Paulo”
+            - Ensure the city name isn't ambiguous
     
-    For example: 
-     - “Cedar Rapids/Iowa City” should be corrected to “Cedar Rapids”
-     - “ÛÁstanbul” should be corrected to “Istanbul”
+         For example: 
+           - “Cedar Rapids/Iowa City” should be corrected to “Cedar Rapids”
+           - “ÛÁstanbul” should be corrected to “Istanbul”
 
  
- 4. Remove any columns that aren't being used 
- 5. Create two columns to display the Restaurant Name and Restaurant Address
- 6. Make a separate table for the list of the cuisines that each restaurant serves
- 7. As it's a dimension table, the Country-Code table must only include unique and non-blank values
+    4. Remove any columns that aren't being used 
+    5. Create two columns to display the Restaurant Name and Restaurant Address
+    6. Make a separate table for the list of the cuisines that each restaurant serves
+    7. As it's a dimension table, the Country-Code table must only include unique and non-blank values
 
 
 ## Steps to use Data Analysis Expressions(DAX) in the project:
 
-  1. Add a Rating color column in an appropriate table with the data rows in the format given below
+    1. Add a Rating color column in an appropriate table with the data rows in the format given below
 
     - Aggregate rating                         
     - Rating color     
     - Above 4.5  : --> Dark Green
     - 4 to  4.4  : --> Green
 
-  2. Create the following measures in the appropriate tables 
-    a. Restaurant count
-    b. Average cost
-    c. Average rating 
-    d. Cuisine count
+    2. Create the following measures in the appropriate tables 
+        a. Restaurant count
+        b. Average cost
+        c. Average rating 
+        d. Cuisine count
 
-  3. Create a new column in the Country Code table and name it “Continent” and create the values using the below-mentioned convention
+    3. Create a new column in the Country Code table and name it “Continent” and create the values using the below-mentioned convention
 
-  - Note: The mapping is continent - country, for example ''Africa – South Africa'' 
+       - Note: The mapping is continent - country, for example ''Africa – South Africa'' 
 
 
